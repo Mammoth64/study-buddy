@@ -19,3 +19,4 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Montserat', sans-serif;
   }
   `;
+ 
