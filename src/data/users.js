@@ -29,13 +29,4 @@ export const users = [
     attendance: '77%',
     average: '4.1',
   },
-  {
-    name: 'Julia Wieniawa',
-    attendance: '49%',
-    average: '3.8',
-  },
-  {
-    name: 'Użytkownik BezŚredniej',
-    average: '3.8',
-  },
 ];

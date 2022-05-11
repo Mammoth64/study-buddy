@@ -1,11 +1,26 @@
 import React from "react";
-import UsersList from "components/UsersList/UsersList";
+import UsersList from "components/organisms/UsersList/UsersList";
+import styled, { ThemeProvider } from 'styled-components';
+import { GlobalStyle } from "assets/styles/globalStyle";
+import { theme } from "assets/styles/theme";
 
-const	Root = () => (
-  <>
-  <UsersList />
-  </>
-);
+const Wrapper = styled.div`
+  background-color: ${({ theme }) => theme.colors.lightGrey};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+`;
+
+const Root = () => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <Wrapper>
+      <UsersList />
+    </Wrapper>
+  </ThemeProvider>
+    );
 
 
-export default Root;
+    export default Root;
