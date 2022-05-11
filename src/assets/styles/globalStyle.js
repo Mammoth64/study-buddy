@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
+    margin-block: 20px ;
     font-family: 'Montserat', sans-serif;
   }
 
