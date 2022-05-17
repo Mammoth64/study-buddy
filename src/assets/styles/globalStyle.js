@@ -7,8 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body{
-    font-family: 'Montserat', sans-serif;
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
   }
 
   *, *::after, *::before {
